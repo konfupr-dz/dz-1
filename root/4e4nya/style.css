@@ -1,0 +1,558 @@
+/* CONST */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {margin: 0;}body {margin: 0; background: #e5e5e5;}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+
+  margin-bottom: 150px;
+}
+
+.header {
+  height: 90px;
+  width: 90%;
+
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.header-logo {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-logo span {
+  border-radius: 7px;
+  padding: 7px 16px;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Raleway', cursive;
+  box-shadow: 0 4px 7px rgb(0 0 0 / 10%);
+}
+
+.header-logo span a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: flex-end;
+
+}
+
+.nav-button {
+  color: white;
+  background: black;
+  text-decoration: none;
+  margin-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  padding: 11px 20px;
+  border-radius: 14px;
+  letter-spacing: 0.4px;
+  transition: 0.2s;
+
+  box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
+}
+
+.nav-button:hover {
+  transform: scale(1.03);
+}
+
+/* MAIN */
+
+#main-title {
+    font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background: #ECE7E4;
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-left-block {
+  width: 75%;
+}
+
+.main-desc {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #403E3B;
+}
+
+.main-h1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70.4px;
+  padding-bottom: 18px;
+}
+
+.main-bg {
+  width: 50%;
+  height: 100%;
+  background: url(images/main.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-author {
+  margin-top: 40px;
+  margin-left: 25px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+
+  color: #1B1A1A;
+}
+
+/* --MAIN-- */
+
+/* BLOCK */
+
+.desc-block {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  background: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.desc-flex {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-left {
+    width: 35%;
+    margin-right: 25px;
+}
+
+.desc-left h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.desc-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-right p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #403E3B;
+  margin-top: 10px;
+}
+
+.desc-img {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.desc-img-desc {
+  margin-left: 30px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.desc-right li {
+  font-size: 19px;
+  margin-top: 5px;
+}
+
+.desc-img-img {
+  background: url(.jpg);
+  border: 3px solid #CEC4BC;
+  box-sizing: border-box;
+  border-radius: 64px;
+  height: 100px;
+  width: 100px;
+}
+
+/* --BLOCK-- */
+
+/* IMG */
+
+.sep-img {
+  width: 100%;
+  height: 600px;
+  background: url(images/sep.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* --img-- */
+
+/* BLOCKS */
+
+.blocks-main {
+  width: 100%;
+  background: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blocks-main {
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.blocks-div {
+  margin-top: 3%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.blocks-block {
+  width: 25%;
+
+    height: -webkit-fill-available;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blocks-block p {
+  font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+text-align: center;
+color: #645C55;
+}
+
+.blocks-main h4 {
+  margin-top: 4%;
+}
+
+.block-img {
+  margin-bottom: 10px;
+}
+
+.block-info {
+  margin-top: 50px;
+  font-weight: 700;
+font-size: 15px;
+line-height: 24px;
+text-align: center;
+color: #645C55;
+width: 65%;
+}
+
+/* --blocks-- */
+
+
+/* END */
+
+.end-block {
+  background: #CEC4BC;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.end-block h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  line-height: 43px;
+  width: 100%;
+}
+
+.end-block span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  width: 30%;
+}
+
+#ways-block {
+  width: 100%;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.ways-flex {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ways-flex-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+.ways-line-elem {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.ways-line-elem::hover {
+  transform: scale(1.05);
+ }
+
+.ways-line-elem img {
+  margin-bottom: 10px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 7px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.way-elem-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* REFERAT */
+
+.r-content {
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
+  background-color: white;
+  padding-top: 15px;
+  border-radius: 7px;
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.r-header-s {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.r-num {
+  margin-left: 20px;
+}
+
+.r-text-block {
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.r-block-dot {
+  font-size: 22px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.r-text-span {
+  font-size: 20px;
+}
+
+ul.history-oglavl {
+  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style-type: none; 
+  }
+  
+ul.history-oglavl li {
+  font-size: 20px;
+  border-bottom: 1px dotted #C2C2C2; /* Необязателен. Здесь задается толщина, тип и цвет точек */
+  position: relative;
+  padding: 0;
+  margin-bottom:5px; /* Необязателен. Задается для установки расстояния между блоками li */
+  }
+
+.history-sec {
+  margin-left: 30px;
+}
+
+.history-dot {
+  font-size: 25px;
+}  
+  
+ul.history-oglavl li span {
+  background-color: #FFF; /* Это необходимо, чтобы перекрыть точки фоном */
+  margin: 0;
+  }
+
+ul.history-oglavl li span.history-text, ul.history-oglavl li span.history-page {
+  bottom: -5px; /* Смещаем значимые блоки, чтобы они перекрыли точки */
+  }
+
+ul.history-oglavl span.history-text {
+  position :relative;
+  margin-right:7em; /* Задается чтобы текст не заходил на номера страниц */
+  padding-right:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */
+  }
+  
+ul.history-oglavl span.history-page {
+  position: absolute;
+  right: 0;
+  padding-left:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */
+  }
+
+
+/* --end-- */
+
+.section {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+.section-white-t {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.section-white-b {
+    padding-bottom: 30px;
+}
+.section-color {
+    background-color: #e5e5e5;
+    padding-bottom: 30px;
+    color: #FFF;
+}
+.separator-white {
+    background-color: #FFF;
+    font: 0/0 a;
+    padding-bottom: 22px;
+}
+.separator-color {
+    background-color: #e5e5e5;
+    font: 0/0 a;
+}
+
+
+@media (max-width: 1400px) {
+  .main-h1 {
+    font-size: 50px;
+    line-height: 60.4px;
+  }
+
+  .main-desc {
+    font-size: 15px;
+  }
+
+  .desc-left h2 {
+    font-size: 23px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-logo {
+    width: 30%;
+  }
+  
+  main, header {
+    width: 95% !important;
+  }
+
+  .main-h1 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .main-desc {
+    font-size: 12px;
+  }
+
+  .desc-left h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .nav-button {
+    font-size: 14px;
+    padding: 7px 16px;
+  }
+}
